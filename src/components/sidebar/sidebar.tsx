@@ -1,4 +1,4 @@
-import { IconButton } from "@material-tailwind/react"c;
+import { IconButton } from "@material-tailwind/react";
 import React, { useState } from "react"; 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBars, faCogs, faList, faTable, faTimes, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,7 @@ import {FaBars, FaCogs, FaList, FaTable, FaTimes, FaUser } from "react-icons/fa"
     <div className={`flex ${isOpen ? "w-64" : "w-12"} bg-gray-900 h-screen pr-1 transition-width`}>
         <ul className="pt-1 w-64">
           <li className="text-white ml-1 py-2 pl-1 hover:bg-gray-700 rounded w-10" onClick={toggleSidebar}>
-            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} lassName="w-8 pr-1"/>
+            <FontAwesomeIcon icon={isOpen ? faTimes : faBars} className="w-8 pr-1"/>
           </li>
           <li className="text-white ml-1 py-2 pl-1 hover:bg-gray-700 rounded flex">
             <FaUser className="w-8 pr-1"/>
