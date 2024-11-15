@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+//import Paper from '@mui/material/Paper';
 import Masonry from '@mui/lab/Masonry';
-import { styled } from '@mui/material/styles';
+//import { styled } from '@mui/material/styles';
 
 /*const Label = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',

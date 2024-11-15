@@ -14,7 +14,16 @@ import Setting from './pages/setting/Setting';
 
 export default function App() {
   const isAuthenticated = true;
+
+  //const [dark, setDark] = React.useState(false);
+
+    /*const darkModeHandler = () => {
+        setDark(!dark);
+        document.body.classList.toggle("dark");
+    }*/
+
   return(
+    <div className="bg-white dark:bg-blak">
     <Routes>
         <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route path="/login" element={<LogIn />} />
@@ -37,6 +46,7 @@ export default function App() {
         </Route>
         <Route path='*' element={<ErrorPage />} />
       </Routes>
+      </div>
   );
 };
 

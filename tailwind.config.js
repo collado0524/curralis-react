@@ -4,6 +4,10 @@ module.exports = withMT({
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: ['variant', [
+    '@media (prefers-color-scheme: dark) { &:not(.light *) }',
+    '&:is(.dark *)',
+  ]],
   theme: {
     extend: {
       colors: {
