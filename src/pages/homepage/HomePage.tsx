@@ -4,7 +4,7 @@ import Paper from '@mui/material/Paper';
 import Masonry from '@mui/lab/Masonry';
 import { styled } from '@mui/material/styles';
 
-const Label = styled(Paper)(({ theme }) => ({
+/*const Label = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(0.5),
@@ -15,7 +15,7 @@ const Label = styled(Paper)(({ theme }) => ({
   ...theme.applyStyles('dark', {
     backgroundColor: '#1A2027',
   }),
-}));
+}));*/
 
 export default function HomePage() {
   return (
